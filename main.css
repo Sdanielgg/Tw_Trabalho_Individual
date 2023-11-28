@@ -92,3 +92,40 @@ img{
     justify-content: center;
     flex-direction: column;
 }
+#foodContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+#foodText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#foodImageContainer{
+    display: flex;
+    flex-direction: row;
+    border: 4px solid white ;
+}
+#foodImage{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(189, 31, 33) ;
+    border: r;
+    padding: 10vh;
+    width: 30vh;
+    height: auto;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+}
+#footerContentContainer{
+    display: flex;
+    flex-direction: column
+}
