@@ -35,7 +35,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3vh;
+
 }
 button{
     display: flex;
@@ -89,7 +89,6 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 
 }
 .chefImage{
     width: 40vh;
@@ -151,6 +150,7 @@ img{
     height: auto;
     background-color: white;
     font-size: 1.5vh;
+    padding: 2vh;
 }
 #footerContentContainer{
     display: flex;
