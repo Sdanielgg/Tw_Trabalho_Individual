@@ -13,10 +13,10 @@ body{
 }
 /*Header*/
 #headerContainer{
-    width: 90%;
+    width: 97%;
     border:5px solid black;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 16vh;
     padding: 0.5vh;
 
@@ -49,7 +49,7 @@ button{
     background-color: rgb(229, 97, 97) ;
     border: 3px;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 3vh;
     border-color: black;
     border-style: solid; 
     height:7vh;
@@ -76,20 +76,21 @@ img{
     background-color: white;
     display: flex;
     justify-content: center;
+    width: 90%;
 }
 #welcomeImage{
     width: 90%;
+    margin: 5px;
     height: auto;
     border:5px solid black;
     border-radius: 10px;
-
 }
 
 /*chefs*/
 #chefsDiv{
     background-color: white;
     border: 5px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     height: auto;
     width: 90%;
 }
@@ -112,12 +113,13 @@ img{
     width: 40vh;
     height: auto;
     border: 4px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 2vh;
 }
 #infoContainer{
     width: 37vh;
     display: flex;
+    font-size: 2vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -127,7 +129,8 @@ img{
     justify-content: space-between;
     background-color: white;
     border:5px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 90%;
     
 }
 #foodText{
@@ -142,7 +145,7 @@ img{
     margin: 10px;
     flex-direction: row;
     border: 4px solid black ;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 #foodImage{
@@ -161,7 +164,7 @@ img{
 /*Footer*/
 #footer{
     border:5px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -169,7 +172,6 @@ img{
     height: auto;
     background-color: white;
     font-size: 1.5vh;
-    padding: 2vh;
     width: 97%;
 }
 #footerContentContainer{
