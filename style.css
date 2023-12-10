@@ -1,4 +1,8 @@
 body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     padding: 0;
     background-color:rgb(229, 97, 97) ;
@@ -9,6 +13,7 @@ body{
 }
 /*Header*/
 #headerContainer{
+    width: 90%;
     border:5px solid black;
     background-color: white;
     border-radius: 5px;
@@ -63,17 +68,30 @@ img{
     height: 5vh;
     margin-left: 2vh;
 }
-#about{
+
+/*Welcome*/
+#welcomeDiv{
     border: 5px solid black;
     border-radius: 10px;
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
+#welcomeImage{
+    width: 90%;
+    height: auto;
+    border:5px solid black;
+    border-radius: 10px;
+
+}
+
 /*chefs*/
-#chefs{
+#chefsDiv{
     background-color: white;
     border: 5px solid black;
     border-radius: 5px;
     height: auto;
+    width: 90%;
 }
 #title{
     display: flex;
@@ -140,6 +158,7 @@ img{
     width: auto;
     height: auto;
 }
+/*Footer*/
 #footer{
     border:5px solid black;
     border-radius: 5px;
@@ -151,6 +170,7 @@ img{
     background-color: white;
     font-size: 1.5vh;
     padding: 2vh;
+    width: 97%;
 }
 #footerContentContainer{
     display: flex;
@@ -164,9 +184,11 @@ img{
 /* igor.html; marcio.html; fernando.html; style*/
 #chefInfo{
     background-color: white ;
-    border:10px solid black;
+    border:5px solid black;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
+    width: 90%;
     
 }
 #chefText{
